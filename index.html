@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rectangle"></div>
+    <div class="header">
+        Weather API
+    </div>
+    <form action ="#" class="credentials" onsubmit="return checkInput()">
+        <input type="text" id="location" placeholder="Location">
+        <span id="error1"></span>
+        <input type="text" id="token" placeholder="Access Token">
+        <span id="error2"></span>
+        <button id="button" type="submit" > Submit </button>
+    </form>
+    <div >
+        <h1 class="heading2">
+            Weather data
+        </h1>
+    </div>
+
+    <div class="rectangle2">
+        <div>
+            <div class="info">
+                <p id="loc">
+                    Location:
+                </p>
+
+                <p id="lat">
+                    Lat:
+                </p>
+
+                <p id="timezone">
+                    TimeZone:
+                </p>
+
+                <p id="wind-speed">
+                    Wind Speed:
+                </p>
+
+                <p id="pressure">
+                    Pressure:
+                </p>
+
+                <p id="humidity">
+                    Humidity:
+                </p>
+
+                <p id="wind-direction">
+                    Wind Direction:
+                </p>
+
+                <p id="uv-index">
+                    UV Index:
+                </p>
+
+                <p id="feels-like">
+                    Feels-Like:
+                </p>
+            </div>
+        </div>
+        <p id="long">
+                   
+            Long:
+        </p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
